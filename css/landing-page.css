@@ -45,6 +45,7 @@ a.enter-web:active { /*selected link*/
     font-size: 14px;
     /*background: url('../img/logo/logo-plain.png') no-repeat center center;*/
 }
+
 #navbar-logo {
     position: absolute;
     width: 50px;
