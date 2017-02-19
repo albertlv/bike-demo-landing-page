@@ -292,3 +292,13 @@ p.copyright {
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;*/
 }
+
+#signButton {
+    height: 4px;
+    margin-right: 11px;
+    margin-left: 8px;
+    background-color: #337ab7;
+    padding-bottom: 27px;
+    padding-top: 6px;
+    border-color: #337ab7;
+}
