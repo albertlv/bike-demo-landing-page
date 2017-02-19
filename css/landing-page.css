@@ -207,10 +207,11 @@ a.enter-web:active { /*selected link*/
 }
 
 footer {
-    padding: 100px 0;
+    padding: 50px 0;
+    text-align: center;
     background-color: #f8f8f8;
     /*background-color: #000000;*/
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 p.copyright {
@@ -291,7 +292,7 @@ p.copyright {
     /*background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );*/
     /*background-color: #909AA0;*/
     font-size: 25px;
-    text-align:center;
+    text-align: center;
     padding-top: 15px;
     /*border-radius: 50%;*/
     /*-moz-border-radius: 50%;
@@ -304,3 +305,84 @@ p.copyright {
     -ms-transition: all ease 0.3s;*/
 }
 
+
+
+/*TESTING THIS BELOW*/
+
+.featured-locations {
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.city {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+    width: 250px;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*text-align: center;*/
+    /*-webkit-mask-image: -webkit-radial-gradient(circle,#fff,#000);*/
+}
+
+.city .img {
+    top: -170px;
+
+}
+
+.city .content {
+    display: block;
+    /*width: 50%;
+    height: 50%;*/
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    right: 0px;
+    /*background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.5));*/
+}
+
+.city .content .position-wrap {
+    width: 100%;
+    /*text-align: center;*/
+}
+
+.city .content .position-wrap .name {
+    /*display: inline-block;*/
+    /*font-size: 16px;*/
+    /*font-weight: 400;*/
+    color: #FFF;
+    text-align: center;
+    /*letter-spacing: -.11px;*/
+    /*line-height: 16px;*/
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+    /*text-transform: none;*/
+}
+
+/*.city .content .position-wrap .options {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255,255,255,.75);
+    letter-spacing: -.11px;
+    line-height: 12px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.city .content .position-wrap .options {
+    display: block;
+    opacity: .75;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: .6px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}*/
+
+
+
+/*TESTING THIS ABOVE*/
