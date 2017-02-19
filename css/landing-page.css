@@ -63,7 +63,7 @@ a.enter-web:active { /*selected link*/
     padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/4274818-bicycle-wallpaper.jpg) no-repeat center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/4274818-bicycle-wallpaper.jpg) no-repeat center center;
     background-size: cover;
 }
 
